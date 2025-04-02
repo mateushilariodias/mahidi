@@ -123,7 +123,7 @@ export default function PuzzleEffect() {
          .join('');
      };
     
-     let repeatedWords: string[] = [];
+     const repeatedWords: string[] = [];
      words.forEach((word, index) => {
        for (let i = 0; i <= index; i++) {
          repeatedWords.push(breakWord(word));
